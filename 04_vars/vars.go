@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/kmvfulls/GoPrograms/04_vars/visi"
+)
+
 
 var b string
 
@@ -18,4 +22,19 @@ func main() {
 	fmt.Printf("%v \n", c)
 	fmt.Printf("%v \n", d)
 
+	fmt.Printf("max val is - %d\n", max(40))
+
+	fmt.Println(visi.MyName)
+
+
 }
+
+
+
+
+func max (x int) int {
+
+	return 42 + x
+}
+
+
